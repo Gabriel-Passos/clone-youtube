@@ -23,6 +23,15 @@ export const Button = styled.button`
     color: #444;
   }
 
+  > img {
+    max-width: 24px;
+    height: 24px;
+
+    margin-right: 28px;
+
+    border-radius: 50%;
+  }
+
   &:focus{
     background-color: #ccc;
     color: #222;
@@ -30,9 +39,5 @@ export const Button = styled.button`
     svg {
       color: red;
     }
-  }
-
-  & + button {
-    margin-bottom: 12px;
   }
 `;

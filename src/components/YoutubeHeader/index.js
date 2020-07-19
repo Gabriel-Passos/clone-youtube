@@ -11,7 +11,7 @@ function YoutubeHeader() {
     <Container>
       <div>
         <Burger />
-        <a href="#"><img src={logo} alt="Youtube"/></a>
+        <a href="teste"><img src={logo} alt="Youtube"/></a>
       </div>
       <div>
         <input type="text" placeholder="Pesquisar" />
