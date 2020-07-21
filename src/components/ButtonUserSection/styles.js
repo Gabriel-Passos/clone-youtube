@@ -2,14 +2,15 @@ import styled from 'styled-components';
 
 export const Button = styled.button`
   width: 240px;
-  padding: 10px 28px;
+  height: 40px;
+  padding: 0 24px;
 
   background-color: #fff;
-  color: #444;
+  color: #030303;
 
   border: 0;
 
-  font-size: 15px;
+  font-size: 14px;
 
   display: flex;
   align-items: center;
@@ -18,7 +19,7 @@ export const Button = styled.button`
     width: 21px;
     height: 21px;
 
-    margin-right: 28px;
+    margin: 0 24px 0 0;
 
     color: #444;
   }
@@ -27,7 +28,7 @@ export const Button = styled.button`
     max-width: 24px;
     height: 24px;
 
-    margin-right: 28px;
+    margin: 0 24px 0 0;
 
     border-radius: 50%;
   }

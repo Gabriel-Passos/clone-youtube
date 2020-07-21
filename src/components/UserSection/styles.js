@@ -8,8 +8,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin-top: 20px;
-
   overflow-y: scroll;
 
   ::-webkit-scrollbar{
@@ -17,37 +15,40 @@ export const Container = styled.div`
   }
 
   div {
-    margin-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 0;
     box-shadow: rgba(0,0,0,0.2) 1px 1px 0 1px;
 
     span{
       display: block;
 
-      padding: 10px 28px;
-      margin-bottom: 10px;
+      padding: 8px 24px;
 
-      font-size: 16px;
-      font-weight: 700;
-      color: #777;
-      
+      font-size: 14px;
+      font-weight: 500;
+      color: #606060;
     }
+  }
 
+  footer {
     ul{
-      padding: 10px 28px;
+      padding: 16px 24px 0;
       
       li{
         a{
           font-size: 13px;
           font-weight: 500;
-          color: #666;
+          color: #606060;
           margin-right: 5px;
         }
 
         p{
           font-size: 13px;
-          color: #888;
+          color: #909090;
         }
+      }
+
+      & + ul {
+        padding: 16px 24px;
       } 
     }
   }

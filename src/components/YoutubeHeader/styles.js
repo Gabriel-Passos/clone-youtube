@@ -9,11 +9,13 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  width: 100vw;
+  width: 100%;
+  height: 52px;
+
   position: fixed;
   background-color: #fff;
 
-  padding: 12px 28px;
+  padding: 0 24px;
 
   z-index: 2;
 
@@ -37,14 +39,16 @@ export const Container = styled.div`
     }
 
     input {
-      width: 550px;
+      width: 575px;
+      height: 30px;
       border: 1px solid #c6c6c6;
       border-radius: 2px 0 0 2px;
 
-      padding: 4px;
+      padding: 4px 6px;
 
       ::placeholder{
         color: #757575;
+        font-weight: 500;
       }
 
       &:focus{
@@ -55,9 +59,10 @@ export const Container = styled.div`
     button {
       width: 70px;
       border: 1px solid #c6c6c6;
+      border-left: 0;
       border-radius: 0 2px 2px 0;
       background-color: #f8f8f8;
-      padding: 3.8px;
+      padding: 4.5555px 6px;
 
       > svg {
         color: #757575;

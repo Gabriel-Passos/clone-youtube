@@ -8,11 +8,13 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
+    margin: 16px 0 0;
   }
 `;
 
 export const Title = styled.h1`
   font-size: 20px;
   font-weight: 500;
-  margin-left: 13px;
+  margin: 36px 0 0 24px;
 `;

@@ -60,7 +60,7 @@ function UserSection() {
         <ButtonUserSection><FaQuestionCircle /> Ajuda</ButtonUserSection>
         <ButtonUserSection><FaExclamationTriangle /> Enviar feedback</ButtonUserSection>
       </div>
-      <div>
+      <footer>
         <ul>
           <li><a href="teste">Sobre</a> <a href="teste">Impresa</a></li>
           <li><a href="teste">Direitos autorais</a></li>
@@ -76,7 +76,7 @@ function UserSection() {
         <ul>
           <li><p>{copy} 2020 Google LLC</p></li>
         </ul>
-      </div>
+      </footer>
     </Container>
   );
 }
