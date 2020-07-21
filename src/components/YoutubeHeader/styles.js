@@ -15,6 +15,8 @@ export const Container = styled.div`
 
   padding: 12px 28px;
 
+  z-index: 2;
+
   > div {
     display: flex;
     align-items: center;

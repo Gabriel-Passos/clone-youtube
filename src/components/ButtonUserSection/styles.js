@@ -5,7 +5,7 @@ export const Button = styled.button`
   padding: 10px 28px;
 
   background-color: #fff;
-  color: #333;
+  color: #444;
 
   border: 0;
 
@@ -34,7 +34,7 @@ export const Button = styled.button`
 
   &:focus{
     background-color: #ccc;
-    color: #222;
+    color: #000;
 
     svg {
       color: red;
