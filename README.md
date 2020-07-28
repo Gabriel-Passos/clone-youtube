@@ -4,10 +4,7 @@
 
 <p align="center">
   <a href="https://reactjs.org/"><img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=blue&style=for-the-badge&logo=REACT"/><a/>
-  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/static/v1?label=typescript&message=3.7.2&color=blue&style=for-the-badge&logo=TYPESCRIPT"/></a>
   <a href="https://styled-components.com/"><img src="https://img.shields.io/static/v1?label=styled-components&message=5.1.1&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/></a>
-  <a href="https://eslint.org/"><img src="https://img.shields.io/static/v1?label=eslint&message=6.6.0&color=blue&style=for-the-badge&logo=ESLINT"/></a>
-  <a href="https://prettier.io/"><img src="https://img.shields.io/static/v1?label=prettier&message=2.0.5&color=blue&style=for-the-badge&logo=PRETTIER"/></a>
 </p>
   
 > Em desenvolvimento.
@@ -64,10 +61,9 @@ Você encontrará sua aplicação rodando em: http://localhost:3000
 ## Tecnologias utilizadas
 
 - [ReactJS](https://reactjs.org/docs/)
-- [TypeScript](https://www.typescriptlang.org/docs/home.html)
 - [Styled-Components](https://styled-components.com/docs)
-- [Eslint](https://eslint.org/docs/user-guide/getting-started)
-- [Prettier](https://prettier.io/docs/en/index.html)
+- [React-Player](https://github.com/CookPete/react-player)
+- [React-Icons](https://react-icons.github.io/react-icons/)
 
 ## Telas do projeto 
 
