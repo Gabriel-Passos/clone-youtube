@@ -3,8 +3,10 @@
 </h1>
 
 <p align="center">
-  <a href="https://reactjs.org/"><img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=blue&style=for-the-badge&logo=REACT"/><a/>
-  <a href="https://styled-components.com/"><img src="https://img.shields.io/static/v1?label=styled-components&message=5.1.1&color=blue&style=for-the-badge&logo=STYLED-COMPONENTS"/></a>
+  <a href="https://reactjs.org/"><img src="https://img.shields.io/static/v1?label=react&message=16.13.1&color=blue&style=for-the-badge"/><a/>
+  <a href="https://styled-components.com/"><img src="https://img.shields.io/static/v1?label=styled-components&message=5.1.1&color=blue&style=for-the-badge"/></a>
+  <a href="https://github.com/CookPete/react-player"><img src="https://img.shields.io/static/v1?label=react-player&message=2.5.0&color=blue&style=for-the-badge"/><a/>
+  <a href="https://react-icons.github.io/react-icons/"><img src="https://img.shields.io/static/v1?label=react-icons&message=3.10.0&color=blue&style=for-the-badge"/><a/>
 </p>
   
 > Em desenvolvimento.
