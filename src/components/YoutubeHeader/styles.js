@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { FiMenu } from 'react-icons/fi';
 import { FaTh, FaVideo, FaBell } from 'react-icons/fa';
 
-export const Container = styled.div`
+export const Container = styled.header`
   grid-area: YH;
 
   display: flex;
@@ -10,7 +10,7 @@ export const Container = styled.div`
   justify-content: space-between;
 
   width: 100%;
-  height: 52px;
+  height: 56px;
 
   position: fixed;
   background-color: #fff;
@@ -24,8 +24,11 @@ export const Container = styled.div`
     align-items: center;
 
     a {
+      display: flex;
+      align-items: center;
+      
       > img {
-        max-width: 100px;
+        max-width: 80px;
         height: auto;
       }
     }

@@ -8,7 +8,7 @@ function CardVideos({title, channelName, qtdViews, dateVideo, url, channelIcon, 
   return(
     <Container>
       <header>
-        <ReactPlayer url={url} controls light width={300} height={160}/>
+        <ReactPlayer url={url} controls light width={355} height={190}/>
         {/* <p>{videoTime}</p> */}
       </header>
       <section>

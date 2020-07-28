@@ -1,9 +1,15 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import CardPosts from '../CardPosts';
+
+import { Container } from './styles';
 
 function RecentPosts() {
-  return <div />;
+  return(
+    <Container>
+      <CardPosts />
+    </Container>
+  );
 }
 
 export default RecentPosts;

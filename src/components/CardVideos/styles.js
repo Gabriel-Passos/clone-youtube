@@ -3,11 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 
   position: relative;
   
-  height: 280px;
-  margin: 10px;
+  height: 320px;
+
+  margin: 0 8px 24px;
 
   header {
     > p {
@@ -27,9 +29,9 @@ export const Container = styled.div`
 
   section {
     display: flex;
-    justify-content: space-between;
 
     margin-top: 16px;
+    width: 355px;
     height: 140px;
 
     img {
@@ -40,6 +42,7 @@ export const Container = styled.div`
       height: 40px;
 
       border-radius: 50%;
+      margin-right: 8px;
     }
 
     aside {
@@ -73,7 +76,7 @@ export const Container = styled.div`
 `;
 
 export const VideoInfo = styled.div`
-  width: 235px;
+  width: 300px;
 
   display: flex;
   flex-direction: column;

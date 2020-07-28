@@ -33,6 +33,10 @@ export const Button = styled.button`
     border-radius: 50%;
   }
 
+  &:hover{
+    background-color: #f1f1f1;
+  }
+
   &:focus{
     background-color: #ccc;
     color: #000;

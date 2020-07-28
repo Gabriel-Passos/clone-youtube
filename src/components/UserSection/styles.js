@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   div {
     padding: 12px 0;
-    box-shadow: rgba(0,0,0,0.2) 1px 1px 0 1px;
+    box-shadow: rgba(0,0,0,0.1) 1px 1px 0 0.1px;
 
     span{
       display: block;
@@ -50,6 +50,23 @@ export const Container = styled.div`
       & + ul {
         padding: 16px 24px;
       } 
+    }
+  }
+
+  &:hover {
+    overflow-x: hidden;
+
+    ::-webkit-scrollbar {
+      display: block;
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #fff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #ccc;
     }
   }
 `;

@@ -6,10 +6,10 @@ export const Container = styled.div`
 
   > div {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
 
-    margin: 16px 0 0;
+    margin: 16px 0 24px;
   }
 `;
 

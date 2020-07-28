@@ -16,11 +16,11 @@ import {
   FaRegClone,
   FaUsers } from 'react-icons/fa';
 
-import userImg from '../../assets/cblol-logo.jpg';
-
 import ButtonUserSection from '../ButtonUserSection';
 
 import { Container } from './styles';
+
+import videos from '../../mock/videos';
 
 const copy = '\u00A9';
 
@@ -41,10 +41,12 @@ function UserSection() {
       </div>
       <div>
         <span>INSCRIÇÕES</span>
-        <ButtonUserSection><img src={userImg} alt="Avatar"/> LoL eSports BR</ButtonUserSection>
-        <ButtonUserSection><img src={userImg} alt="Avatar"/> LoL eSports BR</ButtonUserSection>
-        <ButtonUserSection><img src={userImg} alt="Avatar"/> LoL eSports BR</ButtonUserSection>
-        <ButtonUserSection><img src={userImg} alt="Avatar"/> LoL eSports BR</ButtonUserSection>
+        {videos.map(video => (
+          <ButtonUserSection key={video.id}>
+            <img src={video.channelAvatar} alt={video.channel} />
+            {video.channel}
+          </ButtonUserSection>
+        ))}
       </div>
       <div>
         <span>MAIS DO YOUTUBE</span>
