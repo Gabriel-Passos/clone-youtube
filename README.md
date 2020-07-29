@@ -9,7 +9,7 @@
   <a href="https://react-icons.github.io/react-icons/"><img src="https://img.shields.io/static/v1?label=react-icons&message=3.10.0&color=blue&style=for-the-badge"/><a/>
 </p>
   
-> Em desenvolvimento.
+> Status em Projeto: Em desenvolvimento. :warning:
 
 ### Tópicos 
 
